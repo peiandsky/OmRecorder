@@ -15,12 +15,11 @@
  */
 package com.kingbull.recorder;
 
+import android.app.Activity;
 import android.media.AudioFormat;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -42,7 +41,7 @@ import omrecorder.WriteAction;
  * @author Kailash Dabhi
  * @date 18-07-2016. Copyright (c) 2017 Kingbull Technology. All rights reserved.
  */
-public class WavRecorderActivity extends AppCompatActivity {
+public class WavRecorderActivity extends Activity {
   Recorder recorder;
   ImageView recordButton;
   CheckBox skipSilence;

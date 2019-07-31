@@ -15,9 +15,9 @@
  */
 package com.kingbull.recorder;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -29,7 +29,7 @@ import android.widget.ListView;
  * @date 18-07-2016.
  * Copyright (c) 2017 Kingbull Technology. All rights reserved.
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
   private final static String DEMO_PCM = "Pcm Recorder";
   private final static String DEMO_WAV = "Wav Recorder";
   ListView listView;
